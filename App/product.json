@@ -1,0 +1,42 @@
+[
+    {
+        "product_id" : 103,
+        "product_name":"Montblanc",
+        "strap_color":"Green",
+        "highlight":"Lengthy strap",
+        "price":9000,
+        "status":"ACTIVE"
+    },
+    {
+        "product_id" : 104,
+        "product_name":"Alpina",
+        "strap_color":"Yellow",
+        "highlight":"digital",
+        "price":500,
+        "status":"ACTIVE"
+    },
+    {
+        "product_id" : 105,
+        "product_name":"Tissot",
+        "strap_color":"White",
+        "highlight":"Display",
+        "price":150,
+        "status":"ACTIVE"
+    },
+    {
+        "product_id" : 106,
+        "product_name":"Cartier",
+        "strap_color":"Red",
+        "highlight":"Touch",
+        "price":3000,
+        "status":"ACTIVE"
+    },
+    {
+        "product_id" : 107,
+        "product_name":"Piaget",
+        "strap_color":"Black",
+        "highlight":"Digital",
+        "price":5000,
+        "status":"ACTIVE"
+    }
+]

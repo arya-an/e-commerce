@@ -1,0 +1,43 @@
+.container-fluids {
+
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid > div {
+
+    width: 85%;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+
+.card{
+    width: 100%;
+    background-color: antiquewhite;
+}
+.mycard{
+    width: 120%;
+    margin-left: -10%;
+}
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn a,.btn a:hover{
+    color:white;
+    text-decoration: none;
+}
+.mytxt{
+    color: black;
+}
+
+#mypassid{
+    background-color: black;
+}
+

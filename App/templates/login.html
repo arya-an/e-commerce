@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div class="container-fluids">
+    <div>
+        <div class="card p-5 mycard">
+            <form method="post">
+                {% csrf_token %}
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+            
+                  <label class="form-label" for="form2Example1">Username</label>
+                  <input type="text" id="form2Example1" class="form-control" name="username" />
+                  
+                </div>
+              
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+            
+                  <label class="form-label" for="form2Example2">Password</label>
+                  <input type="password" id="form2Example2" class="form-control" name="password" />
+                  
+                </div>
+              
+                <!-- Submit button -->
+                <!-- <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button> -->
+                <button class="btn btn-primary mb-2">
+                    Log In
+                </button>
+                <!-- Register buttons -->
+                <div class="text-center">
+                  <p>Not a member? <a href="{% url 'register' %}">Register</a></p>
+                  <p> OR </p>
+                  
+                </div>
+            
+            
+                <div class="row">
+                    <div class="col-md-8 mx-auto social-container my-2 order-md-1">
+                        
+            
+            
+            
+                        <button class="btn btn-primary mb-2">
+                            <a href="{% url 'social:begin' 'google-oauth2' %}">Login with Google</a>
+                        </button>
+                    </div>
+                </div>
+            </form>   
+
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    
+
+{% endblock %}
